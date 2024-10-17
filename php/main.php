@@ -18,6 +18,7 @@ function pageGallery($title, $postTypes=[], $amount=3, $categories = [], $speed 
 	global $post;
 
 	wp_enqueue_script('sim_page_gallery_script');
+	wp_enqueue_style( 'sim_page_gallery_style');
 
 	ob_start();
 
