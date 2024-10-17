@@ -1,6 +1,5 @@
 import { __ } from '@wordpress/i18n';
 import {useBlockProps, InspectorControls} from "@wordpress/block-editor";
-import './editor.scss';
 import apiFetch from "@wordpress/api-fetch";
 import {useState, useEffect} from "@wordpress/element";
 import {Panel, PanelBody, PanelRow, Spinner, CheckboxControl, __experimentalNumberControl as NumberControl, __experimentalInputControl as InputControl, ColorPicker} from "@wordpress/components";
