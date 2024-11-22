@@ -2,7 +2,8 @@
 namespace SIM\PAGEGALLERY;
 use SIM;
 
-add_action('init', function () {
+add_action('init', __NAMESPACE__.'\blockInit');
+function blockInit() {
 	global $post;
 
 	register_block_type(
@@ -40,4 +41,4 @@ add_action('init', function () {
 			]
 		)
 	);
-});
+}
