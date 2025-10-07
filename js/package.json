@@ -4,7 +4,8 @@
   "description": "Home",
   "main": "./home.js",
   "scripts": {
-    "gallery": "webpack --watch --entry ./page_gallery.js --output-path . --output-filename page_gallery.min.js --progress --mode=production --devtool source-map"
+    "gallery": "webpack --watch --entry ./page_gallery.js --output-path . --output-filename page_gallery.min.js --progress --mode=production --devtool source-map",
+    "all": "run-p gallery"
   },
   "author": "Ewald Harmsen",
   "license": "ISC",
