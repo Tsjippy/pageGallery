@@ -1,6 +1,6 @@
 <?php
-namespace SIM\PAGEGALLERY;
-use SIM;
+namespace TSJIPPY\PAGEGALLERY;
+use TSJIPPY;
 
 add_action( 'rest_api_init', __NAMESPACE__.'\blockRestApi' );
 function blockRestApi() {
@@ -40,7 +40,7 @@ function pageGalleryBlock($wpRestRequest){
 }
 
 // Allow non-logged in use
-add_filter('sim_allowed_rest_api_urls', __NAMESPACE__.'\restApiUrls');
+add_filter('tsjippy_allowed_rest_api_urls', __NAMESPACE__.'\restApiUrls');
 function restApiUrls($urls){
 	$urls[]		= RESTAPIPREFIX.'/pagegallery/show_page_gallery';
 

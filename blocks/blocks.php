@@ -1,6 +1,6 @@
 <?php
-namespace SIM\PAGEGALLERY;
-use SIM;
+namespace TSJIPPY\PAGEGALLERY;
+use TSJIPPY;
 
 add_action('init', __NAMESPACE__.'\blockInit');
 function blockInit() {

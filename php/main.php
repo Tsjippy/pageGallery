@@ -1,6 +1,6 @@
 <?php
-namespace SIM\PAGEGALLERY;
-use SIM;
+namespace TSJIPPY\PAGEGALLERY;
+use TSJIPPY;
 
 /**
  * Function to show a gallery of 3 ministries
@@ -17,8 +17,8 @@ use SIM;
 function pageGallery($title, $postTypes=[], $amount=3, $categories = [], $speed = 60, $showIfEmpty=true, $backgroundColor='#FFFFFF', $gradient=false){
 	global $post;
 
-	wp_enqueue_script('sim_page_gallery_script');
-	wp_enqueue_style( 'sim_page_gallery_style');
+	wp_enqueue_script('tsjippy_page_gallery_script');
+	wp_enqueue_style( 'tsjippy_page_gallery_style');
 
 	ob_start();
 
@@ -83,7 +83,7 @@ function pageGallery($title, $postTypes=[], $amount=3, $categories = [], $speed 
 				];
 			}
 
-			$args	= apply_filters('sim-frontpage-post-gallery-posts', $args, $postTypes);
+			$args	= apply_filters('tsjippy-frontpage-post-gallery-posts', $args, $postTypes);
 
 			$posts	= array_merge($posts, get_posts($args));
 		}
