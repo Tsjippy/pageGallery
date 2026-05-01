@@ -4,14 +4,19 @@
 ### Added
 
 ### Changed
-- main plugin name from sim-base to tsjippy-shared-functionality
-- module to plugin
-- exclude .vscode from releases
-- updated github workflow versions
 
 ### Fixed
 
 ### Updated
+
+## [10.0.0] - 2026-05-01
+
+
+### Changed
+- main plugin name from sim-base to tsjippy-shared-functionality
+- module to plugin
+- exclude .vscode from releases
+- updated github workflow versions
 
 ## [8.0.5] - 2025-10-13
 
