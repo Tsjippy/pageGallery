@@ -6,7 +6,7 @@
 	"title": "Page gallery",
 	"category": "widgets",
 	"description": "A dynamic gallery of pages",
-	"textdomain": "sim",
+	"textdomain": "tsjippy",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"usesContext": [ "postType" ]

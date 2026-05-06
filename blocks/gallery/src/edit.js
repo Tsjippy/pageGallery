@@ -185,7 +185,7 @@ const Edit = ({ setAttributes, attributes, context }) => {
 			async function getPageGallery(){
 				setHtml(<> Loading... < Spinner /> </>);
 				const response = await apiFetch({
-					path: restApiPrefix+'/pagegallery/show_page_gallery',
+					path: tsjippy.restApiPrefix+'/pagegallery/show_page_gallery',
 					method: 'POST',
 					data: { 
 						'postTypes'	: selPostTypes,
